@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/c67e363a33.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <div class="header">
+    <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Chats</h1>
       </div>
@@ -37,25 +38,27 @@
           <i class="fas fa-cog"></i>
         </span>
       </div>
-    </div>
+    </header>
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
-          <div class="chat__column">
-            <img
-              class="chat__avatar g-avatar"
-              src="images/sangjin.png"
-              width="50px"
-              height="70px"
-            />
-            <div class="chat__content">
-              <span class="chat__username">Sangjin</span>
-              <span class="chat__preview">Going Home</span>
+          <a href="chat.html">
+            <div class="chat__column">
+              <img
+                class="chat__avatar g-avatar"
+                src="images/sangjin.png"
+                width="50px"
+                height="70px"
+              />
+              <div class="chat__content">
+                <span class="chat__username">Sangjin</span>
+                <span class="chat__preview">Going Home</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="timestamp">Yesterday</span>
-          </div>
+            <div class="chat__column">
+              <span class="timestamp">Yesterday</span>
+            </div>
+          </a>
         </li>
       </ul>
     </main>

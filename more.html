@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/c67e363a33.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao Clone</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <div class="header">
+    <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">More</h1>
       </div>
@@ -34,10 +35,93 @@
           <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
-    </div>
+    </header>
+    <main class="more">
+      <header class="more__header">
+        <div class="more__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/sangjin.png"
+              class="freind__avator g-avator"
+              width="50px"
+              height="70px"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Sangjin</span>
+              <span class="friend__status">
+                test@gmail.com
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <i class="far fa-comment-alt fa-2x"></i>
+          </div>
+        </div>
+      </header>
+      <ul class="more__btn-list">
+        <li class="more__btn">
+          <span class="more__btn-icon">
+            <i class="far fa-smile fa-2x"></i>
+          </span>
+          <span class="more__btn-title">
+            Emotions
+          </span>
+        </li>
+        <li class="more__btn">
+          <span class="more__btn-icon">
+            <i class="fas fa-brush fa-2x"></i>
+          </span>
+          <span class="more__btn-title">
+            Themes
+          </span>
+        </li>
+        <li class="more__btn">
+          <span class="more__btn-icon">
+            <i class="fab fa-korvue fa-2x"></i>
+          </span>
+          <span class="more__btn-title">
+            Account
+          </span>
+        </li>
+      </ul>
+      <section class="more__suggesttions">
+        <h5 class="more__title">
+          Suggestions
+        </h5>
+        <ul class="more__suggestions-list">
+          <li class="more__suggestions suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">
+              KaKao Story
+            </span>
+          </li>
+          <li class="more__suggestions suggestion">
+            <span class="suggestion__icon"
+              ><i class="fas fa-beer fa-2x"></i
+            ></span>
+            <span class="suggestion__title">
+              KaKao Friends
+            </span>
+          </li>
+          <li class="more__suggestions suggestion">
+            <span class="suggestion__icon"
+              ><i class="fas fa-gamepad fa-2x"></i
+            ></span>
+
+            <span class="suggestion__title">
+              Friends Gem
+            </span>
+          </li>
+        </ul>
+      </section>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
