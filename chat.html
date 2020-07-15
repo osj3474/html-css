@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>chat | Kakao Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+  <body class="chats-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
     </div>
     <header class="header">
@@ -39,7 +41,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
@@ -50,17 +52,36 @@
             height="70px"
           />
           <div class="message__content">
+            <div class="message__bubble">Congrats I love you!</div>
             <span class="message__author">
               Best Friend
             </span>
-            <div class="message__bubble">Congrats I love you!</div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">Congrats I love you!</div>
+            <div class="message__bubble">Thank you!</div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="images/sangjin.png"
+            class="g-avatar message__avatar"
+            width="50px"
+            height="70px"
+          />
+          <div class="message__content">
+            <div class="message__bubble">What's your schedule today?</div>
+            <span class="message__author">
+              Best Friend
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">I'm not doing anything today.</div>
           </div>
         </li>
       </ul>
